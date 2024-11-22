@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login form</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+              *
+            {
+                margin:0;
+                padding:0;
+            }
+            ul
+            {
+                overflow:hidden;
+            }
+            ul li
+            {   
+                color:brown;
+                list-style:none;
+                float:left;
+                padding:3% 5.5%;
+                font-family: "Overpass", sans-serif;
+                font-size:medium;
+            }
+            ul li a
+            {
+                text-decoration:none;
+                color:brown;
+               
+            }
+            ul li img
+            {
+                height:20px;
+                width:20px;
+            }
+            h1
+            {   
+                color:brown;
+                text-align:center;
+                font-family: "Overpass", sans-serif;
+            }
+            form
+            {   
+               margin:4% 43%;
+               width: 9%;
+               padding: 3% 3%;
+               color:brown;
+               border:2px solid brown;
+               font-family: "Overpass", sans-serif;
+            }
+            form input
+            {
+                color:black;
+                border-width:20%;
+                border-color:black;
+            }
+            center h2
+            {
+                color:brown;
+                font-family: "Overpass", sans-serif;
+            }
+            #btn
+            {
+                color:black;
+                margin:3% 35%; 
+            }
+            #be
+           {    
+                overflow:hidden;
+                height:40px;
+                width:40px;
+           }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <h1>Vehicle Parking</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>                       
+                <li><a href="addvehicle.html">Add Vehicle</a></li>
+                <li><a href="category.html">Vehivle category</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+               
+                <li><a href="https://www.google.com/intl/en-US/gmail/about/"><img src="email.jpg">cukparking@gmail.com</a></li>
+            </ul>
+        </nav>
+       <center>
+        <h2>Create Your Account</h2>
+       </center>
+        <form action="login.py">
+            Name<br>
+            <input type="text" name="username" placeholder="Your name" required><br><br>
+            Mobile Number<br>
+            <input type="number" name="mobile" placeholder="Your mobile number" required><br><br>
+            Email Address<br>
+            <input type="email" name="mail" placeholder="E-mail address" required><br><br>
+            Password<br>
+            <input type="password" name="pass" placeholder="Enter password" required><br><br>
+            <input type="submit" value="Login" id="btn">
+        </form>
+        <ul>
+            <li><a href="https://web.whatsapp.com/"><img src="whatsapp.jpg" id="be">Whatsapp</a></li>
+            <li><a href="https://www.youtube.com/"><img src="youtube.jpg" id="be">Youtube</a></li>
+            <li><a href="https://x.com/"><img src="x.jpg" id="be">Twitter</a></li>
+            <li><a href="https://www.facebook.com/"><img src="facebook.jpg" id="be">Facebook</a></li>
+        </ul>
+    </body>
+</html>
